@@ -34,10 +34,32 @@ int main()
       
 
       cout << "*my github*\n";
+      
+      cout << "M1\tM2 \n";
+      cout << "M3\tM4 \n";
+     
+
+      cout << "my name is \"hero \" \n";
+     
+      cout << "meowwww \a \n";
+
+      cout << "Dear sir//meow" << endl << endl;
+      cout << "how are you?" << endl << endl;
+      cout << "My name is \"hero\" \n";
+
+      cout << "ali\t Ahmed\t nyaa\t\n";
+      cout << "Fadi\t Zain\t Mana\t\n";
+
+
+
+
+
+
+
 
      return 0;
 
       
   }
 
-
+// coment to c++  
