@@ -62,6 +62,22 @@ int main()
      char char1 = 'A', char2 = 'B', char3 = 'C';
      cout << char1 << char2 << char3 << " reversed is " << char3 << char2 << char1 << endl;
 
+     const int MinutesPerHour = 60;
+
+     cout << MinutesPerHour << endl;
+
+    
+
+
+
+
+
+
+
+
+
+
+
      return 0;
 
       
