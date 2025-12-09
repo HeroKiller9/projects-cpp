@@ -85,7 +85,21 @@ int main()
      cout << "Gender: " << Gender << endl;
      cout << "Married: " << Married << endl;
      cout << "******************\n";
+     
 
+     char MyChar;
+     int Mynmber;
+
+     cout << "please enter a char?" << endl;
+     cin >> MyChar;
+
+     cout << "please enter a Number?" << endl;
+     cin >> Mynmber;
+
+     cout << MyChar << endl;
+     cout << Mynmber << endl;
+ 
+     cout << "You entered char: " << MyChar << " and Number: " << Mynmber << endl;
 
 
 
