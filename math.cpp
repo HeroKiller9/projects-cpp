@@ -19,8 +19,16 @@ int main()
   cout << A << " - " << B << " = " << A - B << endl;
   cout << A << " * " << B << " = " << A * B << endl;
   cout << A << " / " << B << " = " << A / B << endl;
-  cout << A << " % " << B << " = " << A % B << endl;
+  cout << A << " % " << B << " = " << A % B << endl << endl;
 
+  cout << "Relational Operators\n\n";
+   
+  cout << A << " = " << B << " is " << (A == B) << endl;
+  cout << A << " != " << B << " is " << (A != B) << endl;
+  cout << A << " > " << B << " is " << (A > B) << endl;
+  cout << A << " < " << B << " is " << (A < B) << endl;
+  cout << A << " >= " << B << " is " << (A >= B) << endl;
+  cout << A << " <= " << B << " is " << (A <= B) << endl;
 
 
 
