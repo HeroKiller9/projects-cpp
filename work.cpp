@@ -50,12 +50,13 @@ int main()
   cout << "please enter your age?" << endl;
   cin >> AGE;
 
-  int YourAgeAfter5Years = Age + 5;
+  int YourAgeAfter5Years = AGE + 5;
   cout << "After 5 years you will be " << YourAgeAfter5Years << " years old. " << endl;
 
 
 
 
+  
 
 
 
