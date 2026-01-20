@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include <string>
 using namespace std;
 
@@ -13,6 +14,7 @@ struct person {
   char Gender;
   bool Married;
 };
+
 // procedures
 void reaidifo(person &info) {
 
@@ -34,6 +36,7 @@ void reaidifo(person &info) {
  cout << "enter your Married 1/0" << endl;
  cin >> info.Married;
 }
+
 // procedures
 void printinfo(person info) {
 
