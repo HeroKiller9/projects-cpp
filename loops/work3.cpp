@@ -1,16 +1,9 @@
 #include <iostream>
 using namespace std;
- 
 
 int main() {
 
-  for (int i = 1; i <= 100; i++)
-  {
-    cout << "meow" << endl;
-  }
-
-  // Factorial of N! #30
-int N;
+  int N;
   int sum = 1;
   cout << "Factorial of N!?" << endl;
   cin >> N;
@@ -20,8 +13,6 @@ int N;
   }
 
     cout << "Factorial of N = " << sum << endl;
-
-
 
 
 
