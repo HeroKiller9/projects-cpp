@@ -7,7 +7,7 @@ int ReadAge() {
 
   int Age;
 
-  cout << "enter your Age?" << endl;
+  cout << "Please enter Age between 18 and 45 ?" << endl;
   cin >> Age;
   return Age;
 }
