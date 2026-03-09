@@ -19,7 +19,7 @@ enOddOrEven CheckOddOrEven(int Number) {
     return enOddOrEven::Even;
 
 }
-int SumOddNumberFrom1toN_UsingWhile(int N) {
+int SumEvenNumberFrom1toN_UsingWhile(int N) {
 
   int Counter = 0;
   int Sum = 0;
@@ -37,12 +37,12 @@ int SumOddNumberFrom1toN_UsingWhile(int N) {
   return Sum;
 }
 
-int SumOddNumberFrom1toN_UsingDowhile(int N) {
+int SumEvenNumberFrom1toN_UsingDowhile(int N) {
 
   int Counter = 0;
   int Sum = 0;
 
-  cout << "Sum odd numbers using Do..While Statement:\n";
+  cout << "Sum Even numbers using Do..While Statement:\n";
   do {
 
     Counter++;
@@ -56,11 +56,11 @@ int SumOddNumberFrom1toN_UsingDowhile(int N) {
   return Sum;
 }
 
-int SumOddNumberFrom1toN_UsingFor(int N) {
+int SumEvenNumberFrom1toN_UsingFor(int N) {
 
   int Sum = 0;
 
-  cout << "Sum odd Numbers using For Statement:\n";
+  cout << "Sum Even Numbers using For Statement:\n";
 
   for (int Counter = 1; Counter <= N; Counter++)
   {
@@ -77,9 +77,9 @@ int main() {
 
   int N = ReadNumber();
 
-  cout << SumOddNumberFrom1toN_UsingWhile(N) << endl;
-  cout << SumOddNumberFrom1toN_UsingDowhile(N) << endl;
-  cout << SumOddNumberFrom1toN_UsingFor(N) << endl;
+  cout << SumEvenNumberFrom1toN_UsingWhile(N) << endl;
+  cout << SumEvenNumberFrom1toN_UsingDowhile(N) << endl;
+  cout << SumEvenNumberFrom1toN_UsingFor(N) << endl;
 
 
   return 0;
